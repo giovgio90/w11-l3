@@ -97,3 +97,49 @@ const myPet: Pet = {
   breed: "Golden Retriever",
   age: 3,
 };
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Types (Tipi):
+
+//Usati per definire la forma di una struttura dati.
+//Creati con la parola chiave "type".
+
+type Persona = {
+  nome: string;
+  età: number;
+};
+
+const person: Persona = {
+  nome: "Alice",
+  età: 30,
+};
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Generics (Generici):
+
+//Consentono di scrivere codice flessibile per funzioni e classi che lavorano con diversi tipi di dati.
+//Utilizzati con la notazione <T> per rappresentare tipi di dati generici.
+//Utile quando si desidera scrivere codice riutilizzabile e flessibile.
+
+type Box<T> = {
+  content: T;
+};
+
+const box1: Box<number> = {
+  content: 42,
+};
+
+const box2: Box<string> = {
+  content: "Contenuto della scatola",
+};
+
+const box3: Box<boolean> = {
+  content: true,
+};
+
+// Possiamo anche usare "Box" con tipi personalizzati, ad esempio oggetti.
+const box4: Box<{ nome: string; età: number }> = {
+  content: { nome: "Alice", età: 30 },
+};

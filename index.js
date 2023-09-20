@@ -56,3 +56,20 @@ var myPet = {
     breed: "Golden Retriever",
     age: 3,
 };
+var person = {
+    nome: "Alice",
+    età: 30,
+};
+var box1 = {
+    content: 42,
+};
+var box2 = {
+    content: "Contenuto della scatola",
+};
+var box3 = {
+    content: true,
+};
+// Possiamo anche usare "Box" con tipi personalizzati, ad esempio oggetti.
+var box4 = {
+    content: { nome: "Alice", età: 30 },
+};
