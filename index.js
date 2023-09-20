@@ -1,5 +1,5 @@
 //Spiegazione generica di TypeScript:
-//TypeScript è un linguaggio di programmazione open-source che estende JavaScript aggiungendo un sistema di tipi statici. Questo significa che TypeScript consente di dichiarare i tipi delle variabili, delle funzioni e degli oggetti nel codice. Questo può aiutare a rilevare errori in fase di sviluppo e migliorare la manutenibilità del codice. Viene infine compilato in JavaScript per essere eseguito nei browser o nell'ambiente Node.js.
+//TypeScript è un linguaggio di programmazione open-source che estende JavaScript aggiungendo un sistema di tipi statici. Questo significa che TypeScript consente di dichiarare i tipi delle variabili, delle funzioni e degli oggetti nel codice. Questo può aiutare a rilevare errori in fase di sviluppo e migliorare la manutenibilità del codice. Viene infine compilato in JavaScript per essere eseguito nei browser.
 var myVar;
 myVar = 32;
 var myVar2;
@@ -11,11 +11,11 @@ myVar3 = true;
 //Il compilatore TypeScript:
 //Il compilatore TypeScript è necessario per aggiungere tipi statici al JavaScript, migliorando la manutenibilità del codice e rilevando errori in fase di sviluppo. Ecco come si usa:
 //1. Installazione di TypeScript: Installa TypeScript globalmente (nel terminale) con il comando "npm install typescript -g".
-//2. Creazione di un file TypeScript: Crea un file myApp.ts (o diversamente) per il tuo codice TypeScript.
+//2. Creazione di un file TypeScript: Crea un file myApp.ts (o diversamente) per il codice TypeScript.
 //3. Scrittura del codice TypeScript: Dichiarare i tipi usando la sintassi ":".
 //4. Compilazione del codice: nel terminale si utilizza il comando "tsc" seguito dal nome del file Typescript per generare un file JavaScript equivalente. Ad esempio, tsc myApp.ts.
 //5. Compilazione in modalità di osservazione (watch): Con il comando "tsc myApp.ts - w", il compilatore rimarrà in ascolto del file myApp.ts e, ogni volta che vengono apportate modifiche a questo file, ricompilerà automaticamente il codice TypeScript in JavaScript, semplificando il processo di sviluppo e garantendo che il tuo codice JavaScript rimanga sempre aggiornato
-//Il compilatore TypeScript è fondamentale per ottenere i vantaggi di TypeScript e garantire che il tuo codice sia corretto e manutenibile.
+//Il compilatore TypeScript è fondamentale per ottenere i vantaggi di TypeScript e garantire che il codice sia corretto e manutenibile.
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // La Type Inference:
 //TypeScript offre la possibilità di specificare i tipi delle variabili, ma in molti casi, il compilatore è in grado di inferire automaticamente i tipi in base ai valori assegnati. Ciò rende il codice più conciso e meno soggetto a errori di tipo.
